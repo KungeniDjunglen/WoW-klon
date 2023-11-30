@@ -9,11 +9,12 @@ namespace ConsoleApp1
     internal class Paladin: Character
     {
         public int HolyPower;
-        public Paladin(string name, int hp, int holypower)
+        public Paladin(string name, int hp, int holypower, int damage)
         {
             this.Name = name;
             this.HP = hp;
             this.HolyPower = holypower;
+            this.Damage = damage;
 
         }
         public override void Print()

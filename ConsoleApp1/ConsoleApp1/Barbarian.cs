@@ -9,11 +9,12 @@ namespace ConsoleApp1
     class Barbarian: Character
     {
         public int RageLevel;
-        public Barbarian(string name, int hp, int ragelevel)
+        public Barbarian(string name, int hp, int ragelevel, int damage)
         {
             this.Name = name;
             this.HP = hp;
             this.RageLevel = ragelevel;
+            this.Damage = damage;
         }
         public override void Print()
         {

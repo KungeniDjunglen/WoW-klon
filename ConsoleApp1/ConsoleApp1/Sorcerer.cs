@@ -9,11 +9,12 @@ namespace ConsoleApp1
     internal class Sorcerer: Character
     {
         public int Mana;
-        public Sorcerer(string name, int hp, int mana)
+        public Sorcerer(string name, int hp, int mana, int damage)
         {
             this.Name = name;
             this.HP = hp;
             this.Mana = mana;
+            this.Damage = damage;
         }
         public override void Print()
         {

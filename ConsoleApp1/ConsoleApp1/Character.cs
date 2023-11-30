@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         public string Name;
         public int HP;
+        public int Damage;
 
         abstract public void Print();
         abstract public void TakeDamage(int damage);
